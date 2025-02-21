@@ -1,0 +1,105 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       
+        .header {
+            background-color: rgba(40, 40, 40, 0.844);
+            padding: 1.5%;
+            color: white;
+            font-size: clamp(0.5rem, calc(3.5vw + 0.2rem), 1.5rem);
+        }
+        
+        
+        nav {
+            background-color: rgb(49, 49, 49);
+        
+        }
+
+        nav ul {
+            display: flex;
+            padding: 1%;
+            list-style: none;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 2%;
+            padding-inline: 1%
+        }
+        .nav a:hover{
+            color: black;
+            background-color: white;
+        }
+        
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 3px;
+            
+        }
+
+        .main {
+            padding: 10px;
+            
+        }
+        
+
+        .aboutsection {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        
+        .abouttext {
+            width: 80%;
+            padding: 4%;
+            height: auto;
+
+        }
+        .image{
+            width: clamp(100px, 30%, 200px);
+            border-radius: 4%;
+            
+        }
+
+        
+        .aboutsection img {
+            max-width: 100%;
+            border: 2px solid black;
+            border-radius: 4%;
+            object-fit: cover;
+        }
+        .section {
+            padding-block: 2%;
+            font-size: clamp(0.5rem, calc(1.5vw + 0.5rem), 1.2rem);
+            line-height: 1.5;
+
+        }
+        .section h3{
+            background-color: rgb(72, 72, 72);
+            color: white;
+            padding-left: 1%;
+        }
+        .experience{
+            padding: 2%;
+            
+        }
+        
+        .sectiondiv{
+            padding-left:2%
+        }
+        .responsibility ul{
+            margin-left: 3%;
+        }
+        .courses ul{
+            margin-left: 5%;
+        }
+
+        .skills ul{
+            margin-left: 5%;
+        }
